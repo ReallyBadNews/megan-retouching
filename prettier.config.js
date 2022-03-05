@@ -1,4 +1,3 @@
 module.exports = {
-  singleQuote: true,
-  semi: false,
-}
+  tailwindConfig: "./styles/tailwind.config.js",
+};
