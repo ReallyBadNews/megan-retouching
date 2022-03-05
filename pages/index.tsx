@@ -45,7 +45,7 @@ const Home: NextPage = () => {
         <link href="/icon.png" rel="icon" />
       </Head>
       <main className="flex w-full flex-1 flex-col justify-center p-4">
-        <h1 className="text-2xl font-bold text-blue-900 dark:text-blue-400 md:text-3xl">
+        <h1 className="text-center text-2xl font-bold text-blue-900 dark:text-blue-400 md:text-left md:text-3xl">
           {`Megan Elshoff `}
           <a
             className="text-blue-500 dark:text-blue-300"
@@ -55,9 +55,11 @@ const Home: NextPage = () => {
           </a>
         </h1>
         <hr className="mt-4 h-1 border-none bg-slate-300 dark:bg-slate-700" />
-        <section className="my-8 grid gap-8 text-center text-gray-900 dark:text-gray-50 md:my-16 md:gap-16">
+        <section className="my-8 grid gap-8 text-center text-gray-900 dark:text-gray-50 md:my-16 md:gap-16 md:text-left">
           <div>
-            <p className="mb-4 text-lg font-bold md:text-2xl">Jeep Cherokee</p>
+            <p className="mb-4 text-lg font-bold md:ml-2 md:text-2xl">
+              Jeep Cherokee
+            </p>
             <ReactCompareSlider
               className="image-slider rounded-2xl shadow-2xl"
               itemOne={<Image alt="cadillac before" src={jeepBefore} />}
@@ -65,7 +67,7 @@ const Home: NextPage = () => {
             />
           </div>
           <div>
-            <p className="mb-4 text-lg font-bold md:text-2xl">
+            <p className="mb-4 text-lg font-bold md:ml-2 md:text-2xl">
               Cadillac Escalade
             </p>
             <ReactCompareSlider
@@ -77,7 +79,9 @@ const Home: NextPage = () => {
             />
           </div>
           <div>
-            <p className="mb-4 text-lg font-bold md:text-2xl">Cadillac ATS</p>
+            <p className="mb-4 text-lg font-bold md:ml-2 md:text-2xl">
+              Cadillac ATS
+            </p>
             <ReactCompareSlider
               className="image-slider rounded-2xl shadow-2xl"
               itemOne={<Image alt="cadillac before" src={atsBefore} />}
@@ -85,7 +89,9 @@ const Home: NextPage = () => {
             />
           </div>
           <div>
-            <p className="mb-4 text-lg font-bold md:text-2xl">Chevy Tahoe</p>
+            <p className="mb-4 text-lg font-bold md:ml-2 md:text-2xl">
+              Chevy Tahoe
+            </p>
             <ReactCompareSlider
               className="image-slider rounded-2xl shadow-2xl"
               itemOne={<Image alt="cadillac before" src={tahoeBefore} />}
@@ -93,7 +99,9 @@ const Home: NextPage = () => {
             />
           </div>
           <div>
-            <p className="mb-4 text-lg font-bold md:text-2xl">GMC Denali</p>
+            <p className="mb-4 text-lg font-bold md:ml-2 md:text-2xl">
+              GMC Denali
+            </p>
             <ReactCompareSlider
               className="image-slider rounded-2xl shadow-2xl"
               itemOne={<Image alt="cadillac before" src={denaliBefore} />}
@@ -101,7 +109,7 @@ const Home: NextPage = () => {
             />
           </div>
           <div>
-            <p className="mb-4 text-lg font-bold md:text-2xl">Buick</p>
+            <p className="mb-4 text-lg font-bold md:ml-2 md:text-2xl">Buick</p>
             <ReactCompareSlider
               className="image-slider rounded-2xl shadow-2xl"
               itemOne={<Image alt="cadillac before" src={buick1Before} />}
@@ -109,7 +117,7 @@ const Home: NextPage = () => {
             />
           </div>
           <div>
-            <p className="mb-4 text-lg font-bold md:text-2xl">
+            <p className="mb-4 text-lg font-bold md:ml-2 md:text-2xl">
               Chevy Silverado
             </p>
             <ReactCompareSlider
@@ -119,7 +127,9 @@ const Home: NextPage = () => {
             />
           </div>
           <div>
-            <p className="mb-4 text-lg font-bold md:text-2xl">Cadillac ATS-V</p>
+            <p className="mb-4 text-lg font-bold md:ml-2 md:text-2xl">
+              Cadillac ATS-V
+            </p>
             <ReactCompareSlider
               className="image-slider rounded-2xl shadow-2xl"
               itemOne={<Image alt="cadillac before" src={blueAtsvBefore} />}
@@ -127,7 +137,9 @@ const Home: NextPage = () => {
             />
           </div>
           <div>
-            <p className="mb-4 text-lg font-bold md:text-2xl">Cadillac ATS-V</p>
+            <p className="mb-4 text-lg font-bold md:ml-2 md:text-2xl">
+              Cadillac ATS-V
+            </p>
             <ReactCompareSlider
               className="image-slider rounded-2xl shadow-2xl"
               itemOne={<Image alt="cadillac before" src={atsvBefore} />}
@@ -135,7 +147,9 @@ const Home: NextPage = () => {
             />
           </div>
           <div>
-            <p className="mb-4 text-lg font-bold md:text-2xl">Buick Encore</p>
+            <p className="mb-4 text-lg font-bold md:ml-2 md:text-2xl">
+              Buick Encore
+            </p>
             <ReactCompareSlider
               className="image-slider rounded-2xl shadow-2xl"
               itemOne={<Image alt="cadillac before" src={encoreBefore} />}
@@ -143,7 +157,7 @@ const Home: NextPage = () => {
             />
           </div>
           <div>
-            <p className="mb-4 text-lg font-bold md:text-2xl">Chevy</p>
+            <p className="mb-4 text-lg font-bold md:ml-2 md:text-2xl">Chevy</p>
             <ReactCompareSlider
               className="image-slider rounded-2xl shadow-2xl"
               itemOne={<Image alt="cadillac before" src={chevyVanBefore1} />}
@@ -152,7 +166,7 @@ const Home: NextPage = () => {
           </div>
           <div className="flex flex-row gap-4">
             <div>
-              <p className="mb-4 text-lg font-bold md:text-2xl">
+              <p className="mb-4 text-lg font-bold md:ml-2 md:text-2xl">
                 Pandora Jewelry
               </p>
               <ReactCompareSlider
@@ -162,7 +176,7 @@ const Home: NextPage = () => {
               />
             </div>
             <div>
-              <p className="mb-4 text-lg font-bold md:text-2xl">
+              <p className="mb-4 text-lg font-bold md:ml-2 md:text-2xl">
                 Pandora Jewelry
               </p>
               <ReactCompareSlider
@@ -173,7 +187,7 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div>
-            <p className="mb-4 text-lg font-bold md:text-2xl">Chevy</p>
+            <p className="mb-4 text-lg font-bold md:ml-2 md:text-2xl">Chevy</p>
             <ReactCompareSlider
               className="image-slider rounded-2xl shadow-2xl"
               itemOne={<Image alt="cadillac before" src={chevyVanBefore2} />}
@@ -181,7 +195,9 @@ const Home: NextPage = () => {
             />
           </div>
           <div>
-            <p className="mb-4 text-lg font-bold md:text-2xl">AC Delco</p>
+            <p className="mb-4 text-lg font-bold md:ml-2 md:text-2xl">
+              AC Delco
+            </p>
             <ReactCompareSlider
               className="image-slider rounded-2xl shadow-2xl"
               itemOne={<Image alt="cadillac before" src={acdelcoBefore} />}
@@ -189,7 +205,7 @@ const Home: NextPage = () => {
             />
           </div>
           <div>
-            <p className="mb-4 text-lg font-bold md:text-2xl">Buick</p>
+            <p className="mb-4 text-lg font-bold md:ml-2 md:text-2xl">Buick</p>
             <ReactCompareSlider
               className="image-slider rounded-2xl shadow-2xl"
               itemOne={<Image alt="cadillac before" src={buickBefore2} />}
@@ -197,7 +213,7 @@ const Home: NextPage = () => {
             />
           </div>
           <div>
-            <p className="mb-4 text-lg font-bold md:text-2xl">
+            <p className="mb-4 text-lg font-bold md:ml-2 md:text-2xl">
               Cadillac Escalade
             </p>
             <ReactCompareSlider
