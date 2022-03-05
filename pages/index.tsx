@@ -41,8 +41,8 @@ const Home: NextPage = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-white py-2 dark:bg-gray-900">
       <Head>
-        <title>Create Next App</title>
-        <link href="/favicon.ico" rel="icon" />
+        <title>Megan Elshoff | Photo Retoucher</title>
+        <link href="/icon.png" rel="icon" />
       </Head>
       <main className="flex w-full flex-1 flex-col justify-center p-4">
         <h1 className="text-2xl font-bold text-blue-900 dark:text-blue-400 md:text-3xl">
