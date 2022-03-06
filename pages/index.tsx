@@ -47,12 +47,7 @@ const Home: NextPage = () => {
       <main className="flex w-full flex-1 flex-col justify-center p-4">
         <h1 className="text-center text-2xl font-bold text-blue-900 dark:text-blue-400 md:text-left md:text-3xl">
           {`Megan Elshoff `}
-          <a
-            className="text-blue-500 dark:text-blue-300"
-            href="https://nextjs.org"
-          >
-            Retouching
-          </a>
+          <span className="text-blue-500 dark:text-blue-300">Retouching</span>
         </h1>
         <hr className="mt-4 h-1 border-none bg-slate-300 dark:bg-slate-700" />
         <section className="my-8 grid gap-8 text-center text-gray-900 dark:text-gray-50 md:my-16 md:gap-16 md:text-left">
@@ -164,7 +159,7 @@ const Home: NextPage = () => {
               itemTwo={<Image alt="cadillac after" src={chevyVanAfter1} />}
             />
           </div>
-          <div className="flex flex-row gap-4">
+          <div className="flex flex-col gap-4 md:flex-row">
             <div>
               <p className="mb-4 text-lg font-bold md:ml-2 md:text-2xl">
                 Pandora Jewelry

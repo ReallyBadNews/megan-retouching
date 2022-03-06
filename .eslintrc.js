@@ -25,13 +25,14 @@ module.exports = {
   ],
   rules: {
     "prettier/prettier": "error",
+    "arrow-body-style": ["error", "always"],
+    "no-console": ["error", { allow: ["warn", "error"] }],
     "react/prop-types": "off",
     "react/function-component-definition": "off",
     "react/jsx-one-expression-per-line": ["error", { allow: "single-child" }],
-    "arrow-body-style": ["error", "always"],
     "react/react-in-jsx-scope": "off",
-    "no-console": ["error", { allow: ["warn", "error"] }],
     "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": ["error", { devDependencies: true }],
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "react/jsx-sort-props": [
       "error",
