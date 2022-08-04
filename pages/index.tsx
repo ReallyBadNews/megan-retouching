@@ -56,7 +56,7 @@ const Home: NextPage = () => {
               Jeep Cherokee
             </p>
             <ReactCompareSlider
-              className="image-slider rounded-2xl shadow-2xl"
+              className="image-slider max-h-[95vh] rounded-2xl shadow-2xl"
               itemOne={<Image alt="cadillac before" src={jeepBefore} />}
               itemTwo={<Image alt="cadillac after" src={jeepAfter} />}
             />
@@ -66,7 +66,7 @@ const Home: NextPage = () => {
               Cadillac Escalade
             </p>
             <ReactCompareSlider
-              className="image-slider rounded-2xl shadow-2xl"
+              className="image-slider max-h-[95vh] rounded-2xl shadow-2xl"
               itemOne={
                 <Image alt="cadillac before" src={escaladeWheelBefore} />
               }
@@ -78,7 +78,7 @@ const Home: NextPage = () => {
               Cadillac ATS
             </p>
             <ReactCompareSlider
-              className="image-slider rounded-2xl shadow-2xl"
+              className="image-slider max-h-[95vh] rounded-2xl shadow-2xl"
               itemOne={<Image alt="cadillac before" src={atsBefore} />}
               itemTwo={<Image alt="cadillac after" src={atsAfter} />}
             />
@@ -88,7 +88,7 @@ const Home: NextPage = () => {
               Chevy Tahoe
             </p>
             <ReactCompareSlider
-              className="image-slider rounded-2xl shadow-2xl"
+              className="image-slider max-h-[95vh] rounded-2xl shadow-2xl"
               itemOne={<Image alt="cadillac before" src={tahoeBefore} />}
               itemTwo={<Image alt="cadillac after" src={tahoeAfter} />}
             />
@@ -98,7 +98,7 @@ const Home: NextPage = () => {
               GMC Denali
             </p>
             <ReactCompareSlider
-              className="image-slider rounded-2xl shadow-2xl"
+              className="image-slider max-h-[95vh] rounded-2xl shadow-2xl"
               itemOne={<Image alt="cadillac before" src={denaliBefore} />}
               itemTwo={<Image alt="cadillac after" src={denaliAfter} />}
             />
@@ -106,7 +106,7 @@ const Home: NextPage = () => {
           <div>
             <p className="mb-4 text-lg font-bold md:ml-2 md:text-2xl">Buick</p>
             <ReactCompareSlider
-              className="image-slider rounded-2xl shadow-2xl"
+              className="image-slider max-h-[95vh] rounded-2xl shadow-2xl"
               itemOne={<Image alt="cadillac before" src={buick1Before} />}
               itemTwo={<Image alt="cadillac after" src={buick1After} />}
             />
@@ -116,7 +116,7 @@ const Home: NextPage = () => {
               Chevy Silverado
             </p>
             <ReactCompareSlider
-              className="image-slider rounded-2xl shadow-2xl"
+              className="image-slider max-h-[95vh] rounded-2xl shadow-2xl"
               itemOne={<Image alt="cadillac before" src={silveradoBefore} />}
               itemTwo={<Image alt="cadillac after" src={silveradoAfter} />}
             />
@@ -126,7 +126,7 @@ const Home: NextPage = () => {
               Cadillac ATS-V
             </p>
             <ReactCompareSlider
-              className="image-slider rounded-2xl shadow-2xl"
+              className="image-slider max-h-[95vh] rounded-2xl shadow-2xl"
               itemOne={<Image alt="cadillac before" src={blueAtsvBefore} />}
               itemTwo={<Image alt="cadillac after" src={blueAtsvAfter} />}
             />
@@ -136,7 +136,7 @@ const Home: NextPage = () => {
               Cadillac ATS-V
             </p>
             <ReactCompareSlider
-              className="image-slider rounded-2xl shadow-2xl"
+              className="image-slider max-h-[95vh] rounded-2xl shadow-2xl"
               itemOne={<Image alt="cadillac before" src={atsvBefore} />}
               itemTwo={<Image alt="cadillac after" src={atsvAfter} />}
             />
@@ -146,7 +146,7 @@ const Home: NextPage = () => {
               Buick Encore
             </p>
             <ReactCompareSlider
-              className="image-slider rounded-2xl shadow-2xl"
+              className="image-slider max-h-[95vh] rounded-2xl shadow-2xl"
               itemOne={<Image alt="cadillac before" src={encoreBefore} />}
               itemTwo={<Image alt="cadillac after" src={encoreAfter} />}
             />
@@ -154,7 +154,7 @@ const Home: NextPage = () => {
           <div>
             <p className="mb-4 text-lg font-bold md:ml-2 md:text-2xl">Chevy</p>
             <ReactCompareSlider
-              className="image-slider rounded-2xl shadow-2xl"
+              className="image-slider max-h-[95vh] rounded-2xl shadow-2xl"
               itemOne={<Image alt="cadillac before" src={chevyVanBefore1} />}
               itemTwo={<Image alt="cadillac after" src={chevyVanAfter1} />}
             />
@@ -165,7 +165,7 @@ const Home: NextPage = () => {
                 Pandora Jewelry
               </p>
               <ReactCompareSlider
-                className="image-slider rounded-2xl shadow-2xl"
+                className="image-slider max-h-[95vh] rounded-2xl shadow-2xl"
                 itemOne={<Image alt="cadillac before" src={pandoraBefore1} />}
                 itemTwo={<Image alt="cadillac after" src={pandoraAfter1} />}
               />
@@ -175,7 +175,7 @@ const Home: NextPage = () => {
                 Pandora Jewelry
               </p>
               <ReactCompareSlider
-                className="image-slider rounded-2xl shadow-2xl"
+                className="image-slider max-h-[95vh] rounded-2xl shadow-2xl"
                 itemOne={<Image alt="cadillac before" src={pandoraBefore2} />}
                 itemTwo={<Image alt="cadillac after" src={pandoraAfter2} />}
               />
@@ -184,7 +184,7 @@ const Home: NextPage = () => {
           <div>
             <p className="mb-4 text-lg font-bold md:ml-2 md:text-2xl">Chevy</p>
             <ReactCompareSlider
-              className="image-slider rounded-2xl shadow-2xl"
+              className="image-slider max-h-[95vh] rounded-2xl shadow-2xl"
               itemOne={<Image alt="cadillac before" src={chevyVanBefore2} />}
               itemTwo={<Image alt="cadillac after" src={chevyVanAfter2} />}
             />
@@ -194,7 +194,7 @@ const Home: NextPage = () => {
               AC Delco
             </p>
             <ReactCompareSlider
-              className="image-slider rounded-2xl shadow-2xl"
+              className="image-slider max-h-[95vh] rounded-2xl shadow-2xl"
               itemOne={<Image alt="cadillac before" src={acdelcoBefore} />}
               itemTwo={<Image alt="cadillac after" src={acdelcoAfter} />}
             />
@@ -202,7 +202,7 @@ const Home: NextPage = () => {
           <div>
             <p className="mb-4 text-lg font-bold md:ml-2 md:text-2xl">Buick</p>
             <ReactCompareSlider
-              className="image-slider rounded-2xl shadow-2xl"
+              className="image-slider max-h-[95vh] rounded-2xl shadow-2xl"
               itemOne={<Image alt="cadillac before" src={buickBefore2} />}
               itemTwo={<Image alt="cadillac after" src={buickAfter2} />}
             />
@@ -212,7 +212,7 @@ const Home: NextPage = () => {
               Cadillac Escalade
             </p>
             <ReactCompareSlider
-              className="image-slider rounded-2xl shadow-2xl"
+              className="image-slider max-h-[95vh] rounded-2xl shadow-2xl"
               itemOne={
                 <Image alt="cadillac before" src={escaladeGrilleBefore} />
               }
